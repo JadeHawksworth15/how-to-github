@@ -1,0 +1,24 @@
+Project: GitHub_Training_13Sept
+
+# Finds working directory
+cmd //c cd
+
+# Sets working directory
+cd  /c/Users/Jade/Documents/GitHub
+
+Git = time machine
+GutHub = back-up for timelines
+
+#Start a 'timeline' aka repository folder
+$ git init
+
+# Git is not remote it is working within local computer
+# Developing area = area wth git folder i.e. Documents/GitHub/
+# Git repository = local repository with timeline which Git organises
+# Staging area = channel between developing area and repository which facilitates preperation and implication of timeline
+
+# Version messages --> why, what, how, effects, limitations
+$ git commit -m "meaningful descriptive message"
+
+
+
