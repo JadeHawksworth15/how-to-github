@@ -121,6 +121,9 @@ $ git push -u origin master
 # To add to Tinne's project add her as a collab, clone it and then push back
 $ git push -u origin master
 
+# To branch so Tinne and I can use the same file without interference
+$ git branch <name>
+
 ALL CODE
 $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
@@ -131,7 +134,7 @@ $ git add GitHubNotes.txt
 $ git commit -m "More messages based on code"
 $ git log
 $ git checkout
-$ git branch
+$ git branch <name>
 $ git switch
 $ ls -a
 $ rm -rf GitHub/
