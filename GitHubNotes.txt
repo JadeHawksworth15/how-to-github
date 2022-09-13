@@ -55,7 +55,7 @@ $ in:path
 
 # To find history of timeline
 $ git checkout c7497ca15d0db83ba2f6a9b20f7f9be622d84f1b 
-# Where code is the code identifying the commit
+# Where code is the code identifying the commitgit
 $ git checkout master takes you back up one commit
 # Remember to add and commit regularly
 
@@ -63,6 +63,12 @@ $ git checkout master takes you back up one commit
 
 # You can make changes to earlier timelines BUT DON'T
 
+# For a new branch 
+$ git branch -f
+# To switch branches
+$ git switch -c <branch>
+# Or following command for cancelling switch
+$ git switch -
 
 ALL CODE
 $ git config --global user.email "you@example.com"
@@ -74,6 +80,8 @@ $ git add GitHubNotes.txt
 $ git commit -m "More messages based on code"
 $ git log
 $ git checkout
+$ git branch
+$ git switch
 
 
 
