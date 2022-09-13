@@ -85,9 +85,21 @@ $ git push -u origin main
 # Rename using following command
 $ mv .gitignore.txt .gitignore
 
+# Check if Git files are commited (saved) and if files are untracked using 
+$ git status
+# This tells you which files are committed and untracked
+# Working directory clean means that there are no files which need to be staged/committed/are untracked
+
 # How to list files in directory
 $ ls -a
 
+# Last part of GitHub is [Github on a remote computer]
+# So the two have to be linked together
+$ git remote add <bridge name AKA origin> <URL>
+# E.g. 
+$ git remote add origin git@github.com:JadeHawksworth15/how-to-github.git
+$ git branch -M main
+$ git push -u origin main
 
 
 ALL CODE
