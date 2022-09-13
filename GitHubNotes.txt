@@ -31,6 +31,15 @@ $ git commit -m "meaningful descriptive message"
 # If you dont put a message the you get error ' switch 'm' requires a value
 
 $ git commit -m "You have to write a message like this"
+# Error: nothing to commit
+
+# To add changes you have to save changes - use function below
+$ git add GitHubNotes.txt
+# Then you can add add message
+# If you want to restore before changes then use function
+$ git restore file GitHubNotes.txt
+
+
 
 
 
