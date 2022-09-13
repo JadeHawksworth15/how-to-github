@@ -10,9 +10,8 @@ cd  /c/Users/Jade/Documents/GitHub
 $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
 
-
-Git = time machine
-GutHub = back-up for timelines
+# Git = time machine
+# GitHub = back-up for timelines
 
 #Start a 'timeline' aka repository folder
 $ git init
@@ -32,12 +31,51 @@ $ git commit -m "meaningful descriptive message"
 
 $ git commit -m "You have to write a message like this"
 # Error: nothing to commit
+# You have to make changes to file and then save changes before you can add a new message and this message tells you what the changes were
 
 # To add changes you have to save changes - use function below
 $ git add GitHubNotes.txt
 # Then you can add add message
 # If you want to restore before changes then use function
 $ git restore file GitHubNotes.txt
+
+# Teamwork activity --> How can I see a history of my timeline? 
+# First answer for retrieving individual commands is using up arrow, followed by up and down to cycle through the previous commands
+# But for whole history you have to navigate to repository
+# Online you can use GitHub GUI
+# Navigating directly to the commits page of a repository
+# Clicking on a file, then clicking History, to get to the commit history for a specific file
+# To pull up the edits in GitBash, use following function
+$ git log
+# git log function gives you an ID code, who made changes and when changes were made
+
+# You can search for code or files using following commands
+$ in:file
+$ in:path
+
+# To find history of timeline
+$ git checkout c7497ca15d0db83ba2f6a9b20f7f9be622d84f1b 
+# Where code is the code identifying the commit
+$ git checkout master takes you back up one commit
+# Remember to add and commit regularly
+
+# A head in Git is the tip (i.e. latest commit) of a branch 
+
+# You can make changes to earlier timelines BUT DON'T
+
+
+ALL CODE
+$ git config --global user.email "you@example.com"
+$ git config --global user.name "Your Name"
+$ cd  /c/Users/Jade/Documents/GitHub
+$ git init
+$ git commit -m "meaningful descriptive message"
+$ git add GitHubNotes.txt
+$ git commit -m "More messages based on code"
+$ git log
+$ git checkout
+
+
 
 
 
