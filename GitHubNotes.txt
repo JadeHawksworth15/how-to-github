@@ -6,6 +6,11 @@ cmd //c cd
 # Sets working directory
 cd  /c/Users/Jade/Documents/GitHub
 
+# Configure to register users ID
+$ git config --global user.email "you@example.com"
+$ git config --global user.name "Your Name"
+
+
 Git = time machine
 GutHub = back-up for timelines
 
@@ -18,7 +23,17 @@ $ git init
 # Staging area = channel between developing area and repository which facilitates preperation and implication of timeline
 
 # Version messages --> why, what, how, effects, limitations
+# Git keeps track of which lines change and what the original file was
 $ git commit -m "meaningful descriptive message"
+
+# if you don't use -m or put a message then you get error 'nothing to commit'
+# if you don't put -m but do put a message you get error 'pathspec......did not match any file(s)
+# If you dont put a message the you get error ' switch 'm' requires a value
+
+$ git commit -m "You have to write a message like this"
+
+
+
 
 
 
