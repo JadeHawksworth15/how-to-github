@@ -115,6 +115,12 @@ $ git status
 $ git revert --continue
 $ git push -u origin master
 
+# You can add collaborators from Github website
+# Settings/collaborators
+
+# To add to Tinne's project add her as a collab, clone it and then push back
+$ git push -u origin master
+
 ALL CODE
 $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
@@ -134,6 +140,8 @@ $ git revert --no-commit 4640e68a2ca28d67684016c5c813630fbb3de149
 $ git status
 $ git revert --continue
 $ git push -u origin master
+
+Escape / :wq!
 
 
 
